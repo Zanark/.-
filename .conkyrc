@@ -82,7 +82,7 @@ $hr
     $color ${font FontAwesome} ${font}${upspeed wlp3s0} 		${color grey} ${font FontAwesome}${goto 202}${font} $color ${downspeed wlp3s0}
 $hr
 #-------------------For TIME----------------------------------------------
-    ${voffset 15}${color C8C2FF}${font Courier:size=20}${time %A}${font}${voffset -15} ${font Courier:size=55}${time %e}${font}${voffset -25}
+    ${voffset 15}${color C8C2FF}${font Courier:size=20}${time %A}${font}${voffset -15} ${offset 60}${font Courier:size=55}${time %e}${font}${voffset -25}
     ${voffset 5}${color C8C2FF}${font Courier:size=20}${time %B} ${voffset -25}
     
     ${offset -35}${voffset 5}${color C8C2FF}${font Digital\-7 Mono:size=50}${time %I:%M %p}${font}${voffset -5}
